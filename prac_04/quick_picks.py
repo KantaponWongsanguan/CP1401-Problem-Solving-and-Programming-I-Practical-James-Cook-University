@@ -6,7 +6,6 @@ NUM_PER_LINE = 6
 
 def main():
     """Function to ask user how many "quick picks" then generate that many line with 6 random numbers each"""
-    # quick_picks = []
     line_wanted = int(input("How many quick picks? "))
 
     while line_wanted <= 0:    # line input validating
