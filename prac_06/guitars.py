@@ -12,10 +12,6 @@ def main():
 
     name = input("Name: ")
     while name != "":
-        # year = int(input("Year: "))
-        # cost = float(input("Cost: $"))
-        # guitar_to_add = Guitar(name, year, cost)
-        # guitars.append(guitar_to_add)
         new_guitar = add_guitar(name, guitars)
         guitars.append(new_guitar)
         print(new_guitar, "added.")
